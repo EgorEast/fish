@@ -4,3 +4,4 @@ end
 
 # Created by `pipx` on 2025-03-14 06:55:59
 set PATH $PATH /home/egoreast/.local/bin
+zoxide init fish | source
