@@ -29,3 +29,5 @@ set -g fish_escape_delay_ms 300
 if command -q fastfetch && ! string match -q -- "*yakuake*" (pstree -s -p $fish_pid)
     fastfetch
 end
+
+set -Ux EDITOR nvim
