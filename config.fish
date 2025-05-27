@@ -20,7 +20,7 @@ set -q XDG_CACHE_HOME || set -U XDG_CACHE_HOME $HOME/.cache
 
 # Различные настройки
 # Используем привычные сочетания клавиш
-set -U fish_key_bindings fish_default_key_bindings
+set -U fish_key_bindings fish_vi_key_bindings
 
 # Двойное нажатие ESC не работает, если выставить меньше
 set -g fish_escape_delay_ms 300
