@@ -7,8 +7,6 @@ set PATH $PATH /home/egoreast/.local/bin
 
 zoxide init fish | source
 
-set -Ux EDITOR nvim
-
 # Эти пути будут добавлены в $PATH единожды
 fish_add_path -m ~/bin ~/.local/bin
 
@@ -31,6 +29,7 @@ if command -q fastfetch && ! string match -q -- "*yakuake*" (pstree -s -p $fish_
 end
 
 set -Ux EDITOR nvim
+set -Ux BROWSER yandex-browser.desktop
 
 function y
     set tmp (mktemp -t "yazi-cwd.XXXXXX")
