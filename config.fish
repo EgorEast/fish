@@ -29,7 +29,7 @@ if command -q fastfetch && ! string match -q -- "*yakuake*" (pstree -s -p $fish_
 end
 
 set -Ux EDITOR nvim
-set -gx BROWSER yandex-browser
+set -gx BROWSER xdg-open
 
 function y
     set tmp (mktemp -t "yazi-cwd.XXXXXX")
