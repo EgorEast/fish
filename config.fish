@@ -31,6 +31,8 @@ end
 set -Ux EDITOR nvim
 set -gx BROWSER xdg-open
 
+set -U PROJECT_PATHS ~/Programming/exarh-web ~/Yandex.Disk/ ~/Yandex.Disk/Obsidian/
+
 function y
     set tmp (mktemp -t "yazi-cwd.XXXXXX")
     yazi $argv --cwd-file="$tmp"

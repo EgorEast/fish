@@ -2,11 +2,18 @@
 # VERSION: 3.0
 SETUVAR --export BROWSER:yandex\x2dbrowser\x2edesktop
 SETUVAR --export EDITOR:nvim
+SETUVAR PROJECT_PATHS:/home/egoreast/Programming/exarh\x2dweb\x1e/home/egoreast/Yandex\x2eDisk/\x1e/home/egoreast/Yandex\x2eDisk/Obsidian/
 SETUVAR XDG_CACHE_HOME:/home/egoreast/\x2ecache
 SETUVAR XDG_CONFIG_HOME:/home/egoreast/\x2econfig
 SETUVAR XDG_DATA_HOME:/home/egoreast/\x2elocal/share
 SETUVAR XDG_STATE_HOME:/home/egoreast/\x2elocal/state
 SETUVAR __fish_initialized:3800
+SETUVAR _fisher_danhper_2F_fish_2D_ssh_2D_agent_files:\x7e/\x2econfig/fish/functions/__ssh_agent_is_started\x2efish\x1e\x7e/\x2econfig/fish/functions/__ssh_agent_start\x2efish\x1e\x7e/\x2econfig/fish/conf\x2ed/fish\x2dssh\x2dagent\x2efish
+SETUVAR _fisher_jorgebucaran_2F_fish_2D_bax_files:\x7e/\x2econfig/fish/functions/replay\x2efish\x1e\x7e/\x2econfig/fish/completions/replay\x2efish
+SETUVAR _fisher_markcial_2F_upto_files:\x7e/\x2econfig/fish/functions/upto\x2efish\x1e\x7e/\x2econfig/fish/completions/upto\x2efish
+SETUVAR _fisher_oh_2D_my_2D_fish_2F_plugin_2D_license_files:\x7e/\x2econfig/fish/functions/license\x2efish\x1e\x7e/\x2econfig/fish/completions/license\x2efish
+SETUVAR _fisher_oh_2D_my_2D_fish_2F_plugin_2D_pj_files:\x7e/\x2econfig/fish/functions/pj\x2efish\x1e\x7e/\x2econfig/fish/completions/pj\x2efish
+SETUVAR _fisher_plugins:jorgebucaran/fish\x2dbax\x1edanhper/fish\x2dssh\x2dagent\x1eoh\x2dmy\x2dfish/plugin\x2dlicense\x1eoh\x2dmy\x2dfish/plugin\x2dpj\x1emarkcial/upto
 SETUVAR _fisher_upgraded_to_4_4:\x1d
 SETUVAR fish_color_autosuggestion:8e908c
 SETUVAR fish_color_cancel:\x2d\x2dreverse
