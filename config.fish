@@ -51,4 +51,4 @@ alias m="cmus"
 alias g="lazygit"
 alias enable_keyboard1="sudo chmod 777 /dev/hidraw1"
 alias enable_keyboard2="sudo chmod 777 /dev/hidraw2"
-alias --save ls='lsd'
+alias ls='lsd'
