@@ -32,7 +32,7 @@ set -Ux EDITOR nvim
 set -gx BROWSER xdg-open
 
 set -U PROJECT_PATHS ~/Programming/exarh-web ~/Yandex.Disk/ ~/Yandex.Disk/Obsidian/
-set -U __done_min_cmd_duration 5000 # default: 5000 ms
+set -U __done_min_cmd_duration 20000 # default: 5000 ms
 set -U __done_exclude '^(v|nvim|y|yazi|m|cmus|g|lazygit)' # default: all git commands, except push and pull. accepts a regex.
 set -U __done_notify_sound 1
 set -U pisces_only_insert_at_eol 1
